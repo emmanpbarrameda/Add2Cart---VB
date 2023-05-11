@@ -949,4 +949,10 @@ Public Class FRM_Cashier_Dashboard
     Private Sub BTN_Exit_Click(sender As Object, e As EventArgs) Handles BTN_Exit.Click
         Application.Exit()
     End Sub
+
+    Private Sub BTN_ManageReports_Click(sender As Object, e As EventArgs) Handles BTN_ManageReports.Click
+
+        FRM_Report.ShowDialog()
+
+    End Sub
 End Class
